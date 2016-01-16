@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="100" contentMode="center" reuseIdentifier="cellId3" id="A0G-Al-0i3">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view tag="105" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jaX-ya-Hj4">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="106" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EjV-4z-7FJ">
+                                <rect key="frame" x="4" y="4" width="92" height="92"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="46"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EjV-4z-7FJ" firstAttribute="top" secondItem="jaX-ya-Hj4" secondAttribute="top" constant="4" id="4bA-QZ-H1a"/>
+                            <constraint firstItem="EjV-4z-7FJ" firstAttribute="leading" secondItem="jaX-ya-Hj4" secondAttribute="leading" constant="4" id="JNV-AN-nnD"/>
+                            <constraint firstAttribute="trailing" secondItem="EjV-4z-7FJ" secondAttribute="trailing" constant="4" id="PMX-V0-TZE"/>
+                            <constraint firstAttribute="width" secondItem="jaX-ya-Hj4" secondAttribute="height" multiplier="1:1" id="UMa-WQ-qBp"/>
+                            <constraint firstAttribute="bottom" secondItem="EjV-4z-7FJ" secondAttribute="bottom" constant="4" id="j0l-Cw-9Gc"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="50"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="108" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CV-9d-EJI">
+                        <rect key="frame" x="109" y="41" width="233" height="26"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="4CV-9d-EJI" secondAttribute="height" multiplier="233:26" id="TRe-Ap-Pph"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="109" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpG-MC-N9q">
+                        <rect key="frame" x="109" y="75" width="233" height="26"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="jpG-MC-N9q" secondAttribute="height" multiplier="233:26" id="8eY-TR-JoU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
+                        <color key="textColor" red="0.081654471450000002" green="0.26314983469999997" blue="0.28611778850000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="107" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLN-xs-OGT">
+                        <rect key="frame" x="110" y="8" width="232" height="30"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="HLN-xs-OGT" secondAttribute="height" multiplier="116:15" id="W1Z-0M-QIW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="4CV-9d-EJI" firstAttribute="leading" secondItem="jaX-ya-Hj4" secondAttribute="trailing" constant="9" id="163-Df-P9V"/>
+                <constraint firstAttribute="trailing" secondItem="HLN-xs-OGT" secondAttribute="trailing" constant="8" id="1ZX-ml-VGb"/>
+                <constraint firstItem="HLN-xs-OGT" firstAttribute="top" secondItem="A0G-Al-0i3" secondAttribute="top" constant="8" id="1j6-0y-FOf"/>
+                <constraint firstAttribute="trailing" secondItem="4CV-9d-EJI" secondAttribute="trailing" constant="8" id="5Oc-L5-gom"/>
+                <constraint firstItem="jpG-MC-N9q" firstAttribute="leading" secondItem="jaX-ya-Hj4" secondAttribute="trailing" constant="9" id="5r1-em-aBh"/>
+                <constraint firstItem="4CV-9d-EJI" firstAttribute="top" secondItem="HLN-xs-OGT" secondAttribute="bottom" constant="3" id="76W-my-FaQ"/>
+                <constraint firstItem="jpG-MC-N9q" firstAttribute="top" secondItem="4CV-9d-EJI" secondAttribute="bottom" constant="3" id="CNL-Lg-9E1"/>
+                <constraint firstItem="4CV-9d-EJI" firstAttribute="leading" secondItem="jaX-ya-Hj4" secondAttribute="trailing" constant="9" id="Fn2-4u-arz"/>
+                <constraint firstItem="HLN-xs-OGT" firstAttribute="leading" secondItem="jaX-ya-Hj4" secondAttribute="trailing" constant="10" id="MCp-AJ-PE6"/>
+                <constraint firstItem="HLN-xs-OGT" firstAttribute="top" secondItem="A0G-Al-0i3" secondAttribute="top" constant="8" id="PRI-Th-1Mr"/>
+                <constraint firstAttribute="bottom" secondItem="jaX-ya-Hj4" secondAttribute="bottom" id="Yv1-e2-f1z"/>
+                <constraint firstAttribute="trailing" secondItem="4CV-9d-EJI" secondAttribute="trailing" constant="8" id="Zy5-sQ-eMm"/>
+                <constraint firstAttribute="trailing" secondItem="jpG-MC-N9q" secondAttribute="trailing" constant="8" id="a7U-wS-94Z"/>
+                <constraint firstItem="4CV-9d-EJI" firstAttribute="top" secondItem="HLN-xs-OGT" secondAttribute="bottom" constant="3" id="aFo-Ad-60S"/>
+                <constraint firstItem="HLN-xs-OGT" firstAttribute="leading" secondItem="jaX-ya-Hj4" secondAttribute="trailing" constant="10" id="aXh-Na-hGd"/>
+                <constraint firstItem="jpG-MC-N9q" firstAttribute="top" secondItem="4CV-9d-EJI" secondAttribute="bottom" constant="8" id="dNR-C9-nTX"/>
+                <constraint firstAttribute="trailing" secondItem="HLN-xs-OGT" secondAttribute="trailing" constant="8" id="hZl-f6-J8L"/>
+                <constraint firstItem="jaX-ya-Hj4" firstAttribute="top" secondItem="A0G-Al-0i3" secondAttribute="top" id="jcY-Lx-5LE"/>
+                <constraint firstItem="jaX-ya-Hj4" firstAttribute="leading" secondItem="A0G-Al-0i3" secondAttribute="leading" id="uD3-Qh-FL6"/>
+                <constraint firstItem="4CV-9d-EJI" firstAttribute="top" secondItem="HLN-xs-OGT" secondAttribute="bottom" constant="3" id="zcL-XY-5RF"/>
+            </constraints>
+            <size key="customSize" width="50" height="86"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="MCp-AJ-PE6"/>
+                    <exclude reference="PRI-Th-1Mr"/>
+                    <exclude reference="hZl-f6-J8L"/>
+                    <exclude reference="76W-my-FaQ"/>
+                    <exclude reference="Fn2-4u-arz"/>
+                    <exclude reference="Zy5-sQ-eMm"/>
+                    <exclude reference="aFo-Ad-60S"/>
+                    <exclude reference="CNL-Lg-9E1"/>
+                </mask>
+            </variation>
+        </collectionViewCell>
+    </objects>
+</document>

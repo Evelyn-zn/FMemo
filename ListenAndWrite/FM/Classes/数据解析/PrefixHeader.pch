@@ -1,0 +1,52 @@
+//
+//  PrefixHeader.pch
+//  FM
+//
+//  Created by lanou3g on 15/11/26.
+//  Copyright © 2015年 lanou3g. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+// 头文件：
+#import <AVFoundation/AVFoundation.h>
+#import "ListDataModel.h"
+#import "DataRequest.h"
+#import "ListenTableViewCell.h"
+#import "ListResultDataModel.h"
+#import "UIImageView+WebCache.h"
+#import "AWCollectionViewController.h"
+#import "programModel.h"
+#import "DataDetailRequest.h"
+#import "AlbumModel.h"
+#import "MJRefresh.h"
+#import "ListenDetailViewController.h"
+#import "PlayMusicHelp.h"
+#import "SecondListViewController.h"
+#import "AlbumDetailModel.h"
+#import "DWTagList.h"
+#import "ZSSRichTextEditor.h"
+#import "ZSSDemoPickerViewController.h"
+#import "TextZSSRichTextEditor.h"
+#import "Reachability.h"
+
+
+
+
+// 1. 榜单
+#define RankingList_URL @"http://mobile.ximalaya.com/mobile/discovery/v2/rankingList/group?channel=and-d3&device=android&includeActivity=true&includeSpecial=true&scale=2&version=4.3.38.2"
+
+
+#define Track_URL @"http://mobile.ximalaya.com/mobile/discovery/v1/rankingList/%@?device=android&key=%@&pageId=%d&pageSize=40"
+
+
+// 榜单1 2详情页列表：
+#define Detail_URL @"http://mobile.ximalaya.com/mobile/others/ca/album/track/%ld/true/%d/20?albumId=%ld&isAsc=true&device=android&pageSize=20"
+#define EV_music [PlayMusicHelp shareData]
+
+#endif /* PrefixHeader_pch */
